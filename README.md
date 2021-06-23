@@ -1,4 +1,4 @@
-# Peacock IoC
+# IoC
 
 Basic implementation of IoC container.
 
