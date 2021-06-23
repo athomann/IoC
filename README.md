@@ -6,8 +6,8 @@ Basic implementation of IoC container.
 container.bind("ad-service", () => new AdService());
 container.use("ad-service").insert();
 
-container.bind("ad-service", () => new TestService());
-container.use("ad-service").test()
+container.bind("test-service", () => new TestService());
+container.use("test-service").test()
 ```
 
 ```
