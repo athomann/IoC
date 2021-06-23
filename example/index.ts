@@ -17,5 +17,5 @@ class AdService {
 container.bind("ad-service", () => new AdService());
 console.log(container.use("ad-service").insert());
 
-container.bind("ad-service", () => new TestService());
-console.log(container.use("ad-service").test());
+container.bind("test-service", () => new TestService());
+console.log(container.use("test-service").test());
